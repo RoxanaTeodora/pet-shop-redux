@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import { fetchUsersWithPets, deleteUser } from "./userReducer";
+import { fetchUsersWithPets, deleteUser } from "./UserReducer";
 
 function UserHome() {
   const users = useSelector((state) => state.users || []);
