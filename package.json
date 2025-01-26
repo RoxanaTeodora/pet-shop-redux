@@ -1,12 +1,9 @@
 {
-  "homepage": "https://RoxanaTeodora/github.io/littlest-pet-shop",
   "name": "project-curd-2",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "dev": "vite --host",
     "build": "vite build",
     "lint": "eslint .",

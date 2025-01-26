@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-// import header from "../src/assets/dog-header.png";
-// import hamster from "../src/assets/3.jpg";
-// import cat from "../src/assets/2.jpg";
-// import dog from "../src/assets/5.jpg";
+import header from "/dog-header.png";
+import hamster from "/3.jpg";
+import cat from "/2.jpg";
+import dog from "/5.jpg";
 
 function About() {
   return (
@@ -22,11 +22,7 @@ function About() {
             <Link to="/">Meet the pets</Link>
           </button>
         </div>
-        <img
-          className="pet-cards"
-          src="../src/assets/dog-header.png"
-          alt="header-imgages"
-        />
+        <img className="pet-cards" src={header} alt="header-imgages" />
       </div>
       <div className="details-card ">
         <div className="group relative m-10 h-96 w-96 overflow-hidden rounded-lg shadow-md ">
@@ -34,7 +30,7 @@ function About() {
           <div className="absolute left-0 top-0 h-full w-full transition-all duration-300 ease-in-out group-hover:-top-96">
             <img
               className="h-4/6 w-full object-cover"
-              src="../src/assets/3.jpg"
+              src={hamster}
               alt="hamster"
             />
             <h1 className="mt-4 px-4 text-center  text-2xl font-bold ">
@@ -60,11 +56,7 @@ function About() {
         <div className="group relative m-10 h-96 w-96 overflow-hidden rounded-lg shadow-md">
           {/* page 1 */}
           <div className="absolute left-0 top-0 h-full w-full transition-all duration-300 ease-in-out group-hover:-top-96">
-            <img
-              className="h-4/6 w-full object-cover"
-              src="../src/assets/2.jpg"
-              alt="cat"
-            />
+            <img className="h-4/6 w-full object-cover" src={cat} alt="cat" />
             <h1 className="mt-4 px-4 text-center text-2xl font-bold">
               The Purrfect Companions
             </h1>
@@ -87,11 +79,7 @@ function About() {
         <div className="group relative m-10 h-[392px] w-[392px] overflow-hidden rounded-lg shadow-md">
           {/* page 1 */}
           <div className="absolute left-0 top-0 h-full w-full transition-all duration-300 ease-in-out group-hover:-top-96">
-            <img
-              className="h-4/6 w-full object-cover"
-              src="../src/assets/5.jpg"
-              alt="dog"
-            />
+            <img className="h-4/6 w-full object-cover" src={dog} alt="dog" />
             <h1 className="mt-4 px-2 text-center text-2xl font-bold">
               Man&apos;s Best Friend
             </h1>

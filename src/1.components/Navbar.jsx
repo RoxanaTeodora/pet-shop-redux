@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
-import logo from "../assets/logo-pet-store.svg";
+import logo from "../0.assets/logo-pet-store.svg";
 import { useRef } from "react";
 
 export const Navbar = (props) => {
@@ -42,9 +42,9 @@ export const Navbar = (props) => {
       </ul>
 
       <div className="container-phone">
-        <Link to="/">
+        {/* <Link to="/">
           <img src={logo} alt="Logo Pet Store" className="logo-img-nav" />
-        </Link>
+        </Link> */}
         <div className=" dropbtn" onClick={handleToggle} ref={navToggleRef}>
           <div className="bar1"></div>
           <div className="bar2"></div>
