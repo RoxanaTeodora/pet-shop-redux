@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 export const petApi = createApi({
   reducerPath: "petApi",
-  baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:5000/api" }),
+  baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:5000/api/pets" }),
   endpoints: (builder) => ({
     getPet: builder.query({
       query: (id) => `pets?id=${id}`, // Actualizat pentru a utiliza endpoint-ul corect
