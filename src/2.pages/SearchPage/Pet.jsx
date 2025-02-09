@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Pet = (props) => {
   const { name, animal, breed, images, location, id } = props;
 
-  let hero = "http://pets-images.dev-apis.com/pets/none.jpg";
+  let hero = "http://localhost:5000/api/images/none.jpg";
   if (images.length) {
     hero = images[0];
   }
