@@ -1,6 +1,6 @@
 import "./App.css";
 import SearchParams from "./2.pages/SearchPage/SearchParams.jsx";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Details from "./2.pages/SearchPage/Details.jsx";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Navbar } from "./1.components/Navbar.jsx";
@@ -24,23 +24,21 @@ const queryClient = new QueryClient({
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <QueryClientProvider client={queryClient}>
-        <Navbar />
-        <Provider store={storePet}>
-          <Routes>
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/userHome" element={<UserHome />} />
-            <Route path="/userHome/edit/:id" element={<UserEdit />} />
-            <Route path="/userHome/CreateUsers" element={<CreateUsers />} />
-            <Route path="/details/:id" element={<Details />} />
-            <Route path="/" element={<SearchParams />} />
-          </Routes>
-        </Provider>
-        <Footer />
-      </QueryClientProvider>
-    </BrowserRouter>
+    <QueryClientProvider client={queryClient}>
+      <Navbar />
+      <Provider store={storePet}>
+        <Routes>
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/userHome" element={<UserHome />} />
+          <Route path="/userHome/edit/:id" element={<UserEdit />} />
+          <Route path="/userHome/CreateUsers" element={<CreateUsers />} />
+          <Route path="/details/:id" element={<Details />} />
+          <Route path="/" element={<SearchParams />} />
+        </Routes>
+      </Provider>
+      <Footer />
+    </QueryClientProvider>
   );
 };
 

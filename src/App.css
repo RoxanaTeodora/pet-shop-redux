@@ -99,7 +99,7 @@ li {
   margin: 8rem auto;
   border-radius: 2rem;
   max-width: 1603px;
-  padding: 2rem;
+  padding: 4rem;
 }
 
 .search-btn,
@@ -124,7 +124,7 @@ li {
 .detail-btn,
 .about-btn {
   background: var(--ui-color-secondary-300);
-  margin: 0.9rem;
+  padding: 0.5rem;
   width: 10rem;
 
   &:hover,
@@ -142,6 +142,7 @@ li {
 .user-create-btn {
   background: var(--ui-color-create-100);
   margin: 2rem;
+  padding: 0.6rem;
   &:hover,
   &:active,
   &:focus {
@@ -152,7 +153,7 @@ li {
 
 .user-delete-btn {
   background: var(--ui-color-delete-100);
-  margin: 0.5rem;
+  padding: 0.5rem;
   &:hover,
   &:active,
   &:focus {
@@ -163,7 +164,7 @@ li {
 
 .user-edit-btn {
   background: var(--ui-color-edit-100);
-  margin: 0.5rem;
+  padding: 0.5rem;
   &:hover,
   &:active,
   &:focus {
@@ -454,7 +455,7 @@ select {
 }
 
 .table-col {
-  padding: 4rem;
+  padding: 6rem;
 }
 
 .admin-header {
@@ -499,7 +500,7 @@ label {
   align-items: center;
   margin: 8rem auto;
   border-radius: 2rem;
-  max-width: 95rem;
+  max-width: 1603px;
   padding: 2rem;
 }
 
@@ -634,6 +635,7 @@ label {
 
     .about-btn {
       width: 10rem;
+      padding: 10rem;
     }
   }
   .header-img,
@@ -660,7 +662,7 @@ label {
 
   /* pet */
   .form-pet {
-    padding: 2rem 1rem;
+    padding: 4rem 4rem;
   }
 
   .search {
