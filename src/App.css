@@ -539,6 +539,12 @@ label {
 
 /* phone */
 @media only screen and (max-width: 767px) {
+  html,
+  body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-width: 100%;
+  }
   .navbar {
     display: none;
   }
@@ -739,6 +745,13 @@ label {
 
 /* tablet */
 @media only screen and (min-width: 750px) and (max-width: 1024px) {
+  html,
+  body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+
   .navbar {
     display: flex;
     justify-content: center;
