@@ -10,7 +10,7 @@ const Footer = () => {
         >
           <ul className="navbar">
             <li className="list">
-              <Link to="/user">About</Link>
+              <Link to="/about">About</Link>
             </li>
             <Link to="/" className="list">
               Pets
