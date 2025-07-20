@@ -33,7 +33,7 @@
   - Display users and their assigned pets
 - Uses Redux thunks to fetch and combine user and pet data
 
-## 🧠 State Management with Redux
+### 🧠 State Management with Redux
 
 The app uses Redux Toolkit for:
 
@@ -42,6 +42,6 @@ The app uses Redux Toolkit for:
 - Fetching pet data via **reduxjs/toolkit/query/react** (`petApiService`)
 - Managing **users and their pets** in Admin (`userReducer`)
   
-Live Demo: https://littke-pets-old-api.vercel.app/
+Live Demo: https://little-pets-shop.vercel.app
 
 
