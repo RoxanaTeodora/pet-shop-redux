@@ -26,6 +26,7 @@
   margin: 0 auto;
   padding: 0rem;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 body {
@@ -416,13 +417,13 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 8rem auto;
+  margin: 5rem auto;
   border-radius: 2rem;
   max-width: 1603px;
 
   .details-card-item,
   .hero-card-item {
-    padding: 5rem;
+    padding: 2.5rem;
   }
 }
 .card-item-title,
@@ -622,15 +623,15 @@ label {
   /* about */
   .about-container {
     .hero-item-title,
-    .hero-item-p {
+    .hero-item-p,
+    .about-btn {
       display: flex;
       justify-content: center;
       align-items: center;
-      margin: 0 15rem;
     }
 
     .about-btn {
-      width: 10rem;
+      margin-left: 0.5rem;
     }
   }
   .header-img,
@@ -653,7 +654,7 @@ label {
 
   .details-card-item,
   .hero-card-item {
-    padding-top: 3rem;
+    padding-top: 0.5rem;
   }
 
   /* pet */
