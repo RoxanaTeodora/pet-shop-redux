@@ -46,4 +46,4 @@ The app uses Redux Toolkit for:
 - Fetching pet data via **reduxjs/toolkit/query/react** (`petApiService`)
 - Managing **users and their pets** in Admin (`userReducer`)
 
-Live Demo: https://little-pets-shop.vercel.app
+Live Demo: https://littlest-pet-shop.vercel.app/
