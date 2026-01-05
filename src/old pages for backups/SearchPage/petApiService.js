@@ -1,5 +1,5 @@
 import { createApi } from "@reduxjs/toolkit/query/react";
-import { pets } from "../../2.pages/SearchPage/data";
+import { pets } from "./data";
 
 export const petApi = createApi({
   reducerPath: "petApi",
