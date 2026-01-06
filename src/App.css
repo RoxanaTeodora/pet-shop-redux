@@ -63,10 +63,6 @@ body {
   }
 }
 
-.left-item {
-  display: inline-block;
-}
-
 ul,
 li {
   padding: 1rem;
@@ -87,7 +83,7 @@ li {
 }
 
 .list-admin {
-  padding-left: 38rem;
+  padding-left: 34rem;
 }
 
 .search-params {
