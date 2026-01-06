@@ -24,7 +24,7 @@ export const pets = [
     state: "KY",
     description:
       "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
-    breed: "Havanese",
+    breed: "Netherland Dwarf",
     images: ["http://pets-images.dev-apis.com/pets/rabbit0.jpg"],
   },
   {
@@ -35,20 +35,10 @@ export const pets = [
     state: "TX",
     description:
       "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
-    breed: "Lab",
+    breed: "Lop",
     images: ["http://pets-images.dev-apis.com/pets/rabbit1.jpg"],
   },
-  {
-    id: 4,
-    name: "Natalina",
-    animal: "rabbit",
-    city: "Tampa",
-    state: "FL",
-    description:
-      "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
-    breed: "Lab",
-    images: ["http://pets-images.dev-apis.com/pets/rabbit2.jpg"],
-  },
+
   {
     id: 5,
     name: "Michail",
@@ -57,7 +47,7 @@ export const pets = [
     state: "AL",
     description:
       "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
-    breed: "Havanese",
+    breed: "Iguana",
     images: ["http://pets-images.dev-apis.com/pets/reptile1.jpg"],
   },
   {
@@ -68,7 +58,7 @@ export const pets = [
     state: "IL",
     description:
       "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
-    breed: "Havanese",
+    breed: "Indian Ringneck",
     images: ["http://pets-images.dev-apis.com/pets/bird2.jpg"],
   },
   {
@@ -79,7 +69,7 @@ export const pets = [
     state: "CT",
     description:
       "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-    breed: "Havanese",
+    breed: "Iguana",
     images: ["http://pets-images.dev-apis.com/pets/reptile2.jpg"],
   },
   {
@@ -90,20 +80,10 @@ export const pets = [
     state: "NC",
     description:
       "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
-    breed: "Lab",
-    images: ["http://pets-images.dev-apis.com/pets/dog0.jpg"],
+    breed: "Dalmatian",
+    images: ["http://pets-images.dev-apis.com/pets/dog17.jpg"],
   },
-  {
-    id: 9,
-    name: "Lyda",
-    animal: "rabbit",
-    city: "Springfield",
-    state: "IL",
-    description:
-      "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.\n\nInteger tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
-    breed: "Lab",
-    images: ["http://pets-images.dev-apis.com/pets/rabbit3.jpg"],
-  },
+
   {
     id: 10,
     name: "Jackquelin",
@@ -113,6 +93,154 @@ export const pets = [
     description:
       "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
     breed: "Lab",
+    images: ["http://pets-images.dev-apis.com/pets/dog14.jpg"],
+  },
+
+  // dogs
+  {
+    id: 11,
+    name: "Buddy",
+    animal: "dog",
+    city: "Denver",
+    state: "CO",
+    description:
+      "Buddy is a friendly and energetic dog who loves long walks and playing fetch.",
+    breed: "Golden Retriever",
+    images: ["http://pets-images.dev-apis.com/pets/dog23.jpg"],
+  },
+  {
+    id: 12,
+    name: "Max",
+    animal: "dog",
+    city: "Austin",
+    state: "TX",
+    description: "Max is a loyal companion, great with kids and other animals.",
+    breed: "German Shepherd",
     images: ["http://pets-images.dev-apis.com/pets/dog1.jpg"],
+  },
+
+  {
+    id: 13,
+    name: "Whiskers",
+    animal: "cat",
+    city: "Portland",
+    state: "OR",
+    description: "Whiskers enjoys sunny windowsills and quiet afternoons.",
+    breed: "Siamese",
+    images: ["http://pets-images.dev-apis.com/pets/cat6.jpg"],
+  },
+  {
+    id: 14,
+    name: "Mittens",
+    animal: "cat",
+    city: "San Jose",
+    state: "CA",
+    description: "Mittens is playful, curious, and loves cardboard boxes.",
+    breed: "Tabby",
+    images: ["http://pets-images.dev-apis.com/pets/cat5.jpg"],
+  },
+
+  {
+    id: 18,
+    name: "Iggy",
+    animal: "reptile",
+    city: "Las Vegas",
+    state: "NV",
+    description: "Iggy is curious and calm, ideal for reptile enthusiasts.",
+    breed: "Iguana",
+    images: ["http://pets-images.dev-apis.com/pets/reptile2.jpg"],
+  },
+
+  {
+    id: 19,
+    name: "Oscar",
+    animal: "dog",
+    city: "Boise",
+    state: "ID",
+    description: "Oscar is gentle and loves belly rubs.",
+    breed: "Beagle",
+    images: ["http://pets-images.dev-apis.com/pets/dog4.jpg"],
+  },
+  {
+    id: 20,
+    name: "Lily",
+    animal: "cat",
+    city: "Boston",
+    state: "MA",
+    description: "Lily is elegant, quiet, and loves warm blankets.",
+    breed: "Persian",
+    images: ["http://pets-images.dev-apis.com/pets/cat2.jpg"],
+  },
+  {
+    id: 21,
+    name: "Rocky",
+    animal: "dog",
+    city: "Cleveland",
+    state: "OH",
+    description: "Rocky is energetic and perfect for active families.",
+    breed: "Boxer",
+    images: ["http://pets-images.dev-apis.com/pets/dog6.jpg"],
+  },
+  {
+    id: 22,
+    name: "Nala",
+    animal: "cat",
+    city: "San Diego",
+    state: "CA",
+    description: "Nala is affectionate and loves human company.",
+    breed: "Maine Coon",
+    images: ["http://pets-images.dev-apis.com/pets/cat3.jpg"],
+  },
+  {
+    id: 23,
+    name: "Bubbles",
+    animal: "rabbit",
+    city: "Eugene",
+    state: "OR",
+    description: "Bubbles is playful and loves hopping around the garden.",
+    breed: "Angora",
+    images: ["http://pets-images.dev-apis.com/pets/rabbit3.jpg"],
+  },
+
+  {
+    id: 25,
+    name: "Cooper",
+    animal: "dog",
+    city: "Nashville",
+    state: "TN",
+    description: "Cooper loves hiking and outdoor adventures.",
+    breed: "Australian Shepherd",
+    images: ["http://pets-images.dev-apis.com/pets/dog11.jpg"],
+  },
+  {
+    id: 26,
+    name: "Milo",
+    animal: "cat",
+    city: "Reno",
+    state: "NV",
+    description: "Milo is curious and playful, always exploring.",
+    breed: "Bengal",
+    images: ["http://pets-images.dev-apis.com/pets/cat4.jpg"],
+  },
+
+  {
+    id: 29,
+    name: "Thor",
+    animal: "dog",
+    city: "Anchorage",
+    state: "AK",
+    description: "Thor is strong, calm, and very loyal.",
+    breed: "Husky",
+    images: ["http://pets-images.dev-apis.com/pets/dog3.jpg"],
+  },
+  {
+    id: 30,
+    name: "Cleo",
+    animal: "cat",
+    city: "Savannah",
+    state: "GA",
+    description: "Cleo is elegant and observant.",
+    breed: "Egyptian Mau",
+    images: ["http://pets-images.dev-apis.com/pets/cat5.jpg"],
   },
 ];
