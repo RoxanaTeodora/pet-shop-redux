@@ -63,6 +63,10 @@ body {
   }
 }
 
+.left-item {
+  display: inline-block;
+}
+
 ul,
 li {
   padding: 1rem;
@@ -74,17 +78,16 @@ li {
 }
 
 .list {
-  display: flex;
-  align-items: center;
+  max-width: 1603px;
   img {
-    width: 5rem;
+    width: 6rem;
     height: auto;
-    margin-right: 4rem;
+    margin-right: 35rem;
   }
 }
 
 .list-admin {
-  padding-left: 40rem;
+  padding-left: 38rem;
 }
 
 .search-params {
@@ -554,7 +557,6 @@ label {
   .logo-img-nav {
     width: 80px;
     height: auto;
-    margin-left: 10rem;
   }
 
   .container-nav {

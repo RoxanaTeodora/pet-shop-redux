@@ -28,7 +28,9 @@ const Details = () => {
       <div>
         <h1>{pet.name}</h1>
         <h2>{`${pet.animal} — ${pet.breed} — ${pet.city}, ${pet.state}`}</h2>
-        <button className="detail-btn" onClick={() => setShowModal(true)}>Adopt {pet.name}</button>
+        <button className="detail-btn" onClick={() => setShowModal(true)}>
+          Adopt {pet.name}
+        </button>
         <p>{pet.description}</p>
         {showModal ? (
           <Modal>

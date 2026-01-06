@@ -22,19 +22,21 @@ export const Navbar = (props) => {
       }}
     >
       <ul className="navbar">
-        <li className="list">
-          <Link to="/">
-            <img src={logo} alt="Logo Pet Store" className="logo-img" />
-          </Link>
-        </li>
-        <li className="list">
-          <Link to="/about">About</Link>
-        </li>
-        <li className="list">
-          <Link to="/">Pets</Link>
-        </li>
-        <li className="list">
-          <Link to="/contact">Contact</Link>
+        <li className="left-nav-item">
+          <li className="list">
+            <Link to="/">
+              <img src={logo} alt="Logo Pet Store" className="logo-img" />
+            </Link>
+          </li>
+          <li className="list">
+            <Link to="/about">About</Link>
+          </li>
+          <li className="list">
+            <Link to="/">Pets</Link>
+          </li>
+          <li className="list">
+            <Link to="/contact">Contact</Link>
+          </li>
         </li>
         <li className="list-admin">
           <Link to="/userHome">Admin</Link>

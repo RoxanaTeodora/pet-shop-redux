@@ -1,5 +1,6 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import { petApi } from "../SearchPage/petApiService";
+//import { petApi } from "../SearchPage/petApiService";
+import { pets } from "../../2.pages/SearchPage/data";
 
 const API_URL = "https://66ccbaefa4dd3c8a71b8a15d.mockapi.io/user/users";
 
@@ -11,9 +12,7 @@ export const fetchUsers = createAsyncThunk("users/fetchUsers", async () => {
 export const addUser = createAsyncThunk("users/addUser", async (newUser) => {
   const response = await fetch(API_URL, {
     method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
+    headers: { "Content-Type": "application/json" },
     body: JSON.stringify(newUser),
   });
   return response.json();
@@ -22,12 +21,9 @@ export const addUser = createAsyncThunk("users/addUser", async (newUser) => {
 export const updateUser = createAsyncThunk(
   "users/updateUser",
   async (updatedUser) => {
-    const { id } = updatedUser;
-    const response = await fetch(`${API_URL}/${id}`, {
+    const response = await fetch(`${API_URL}/${updatedUser.id}`, {
       method: "PUT",
-      headers: {
-        "Content-Type": "application/json",
-      },
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify(updatedUser),
     });
     return response.json();
@@ -37,9 +33,7 @@ export const updateUser = createAsyncThunk(
 export const deleteUser = createAsyncThunk(
   "users/deleteUser",
   async ({ id }) => {
-    await fetch(`${API_URL}/${id}`, {
-      method: "DELETE",
-    });
+    await fetch(`${API_URL}/${id}`, { method: "DELETE" });
     return id;
   },
 );
@@ -50,20 +44,15 @@ export const fetchUsersWithPets = createAsyncThunk(
     const usersResponse = await dispatch(fetchUsers());
     const users = usersResponse.payload;
 
-    const petsResponse = await dispatch(petApi.endpoints.search.initiate({}));
-    const pets = petsResponse.data;
-
     const petsMap = pets.reduce((map, pet) => {
       map[pet.id] = pet;
       return map;
     }, {});
 
-    const usersWithPets = users.map((user) => ({
+    return users.map((user) => ({
       ...user,
       pet: user.petId ? petsMap[user.petId] : null,
     }));
-
-    return usersWithPets;
   },
 );
 
@@ -73,12 +62,10 @@ const userSlice = createSlice({
   reducers: {},
   extraReducers: (builder) => {
     builder
-      .addCase(fetchUsersWithPets.fulfilled, (state, action) => {
-        return action.payload;
-      })
-      .addCase(deleteUser.fulfilled, (state, action) => {
-        return state.filter((user) => user.id !== action.payload);
-      });
+      .addCase(fetchUsersWithPets.fulfilled, (_, action) => action.payload)
+      .addCase(deleteUser.fulfilled, (state, action) =>
+        state.filter((user) => user.id !== action.payload),
+      );
   },
 });
 
