@@ -49,5 +49,6 @@ The app uses Redux Toolkit for:
 Live Demo: https://littlest-pet-shop.vercel.app/
 
 Preview video: 
-[https://github.com/user-attachments/assets/d47ff6b9-259a-4287-90a8-53d32e677e71](https://github-production-user-asset-6210df.s3.amazonaws.com/142969879/532977710-d47ff6b9-259a-4287-90a8-53d32e677e71.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260107T183226Z&X-Amz-Expires=300&X-Amz-Signature=73c71acfeb9fa64fe100231412e3d6f73aa0084db797b5b3d23b911809e3d9d5&X-Amz-SignedHeaders=host)
+<video src="https://github.com/user-attachments/assets/d47ff6b9-259a-4287-90a8-53d32e677e71" controls width="600"></video>
+
 
