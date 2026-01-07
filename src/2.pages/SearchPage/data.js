@@ -96,7 +96,6 @@ export const pets = [
     images: ["http://pets-images.dev-apis.com/pets/dog14.jpg"],
   },
 
-  // dogs
   {
     id: 11,
     name: "Buddy",
