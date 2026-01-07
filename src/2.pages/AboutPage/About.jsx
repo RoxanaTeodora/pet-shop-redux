@@ -6,8 +6,8 @@ import dog from "/5.jpg";
 
 function About() {
   return (
-    <div className="about-container">
-      <div className="layout-container">
+    <div className="layout-container">
+      <div className="about-container">
         <div className="hero-card background-color-components">
           <div className="hero-card-item">
             <h2 className="hero-item-title">A new home, a new life. Adopt?</h2>

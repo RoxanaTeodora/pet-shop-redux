@@ -47,3 +47,5 @@ The app uses Redux Toolkit for:
 - Managing **users and their pets** in Admin (`userReducer`)
 
 Live Demo: https://littlest-pet-shop.vercel.app/
+
+Preview video: <video controls src="demo-petshop-1.mp4" title="Title"></video>
