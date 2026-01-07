@@ -48,4 +48,6 @@ The app uses Redux Toolkit for:
 
 Live Demo: https://littlest-pet-shop.vercel.app/
 
-Preview video: <video controls src="demo-petshop-1.mp4" title="Title"></video>
+Preview video: 
+https://github.com/user-attachments/assets/d47ff6b9-259a-4287-90a8-53d32e677e71
+
